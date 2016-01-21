@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LocalizedViewLoader.cs" />
+    <Compile Include="LocalizedViewService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TranslatorHelper.cs" />
   </ItemGroup>

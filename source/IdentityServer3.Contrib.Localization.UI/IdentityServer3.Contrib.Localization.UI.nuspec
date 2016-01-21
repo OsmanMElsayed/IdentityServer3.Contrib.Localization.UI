@@ -14,24 +14,24 @@
         </releaseNotes>
         <tags>identityserver, identityserver3, i18n, localize, localization, globalization, language, languages, ui</tags>
         <dependencies>
-            <dependency id="IdentityServer3" version="2.0.1" />
-            <dependency id="SecondLanguage" version="1.0.1" />
-            <dependency id="Newtonsoft.Json" version="7.0.1" />
+            <dependency id="IdentityServer3" version="3.2.3" />
+            <dependency id="SecondLanguage" version="1.0.2" />
+            <dependency id="Newtonsoft.Json" version="8.0.2" />
         </dependencies>
     </metadata>
     <files>
-        <file src="assets\checksession.html" target="assets\checksession.html" />
-        <file src="assets\_FormPostResponse.html" target="assets\_FormPostResponse.html" />
-        <file src="assets\_layout.html" target="assets\_layout.html" />
-        <file src="assets\_welcome.html" target="assets\_welcome.html" />
-        <file src="assets\_consent.html" target="assets\_consent.html" />
-        <file src="assets\_error.html" target="assets\_error.html" />
-        <file src="assets\_loggedOut.html" target="assets\_loggedOut.html" />
-        <file src="assets\_login.html" target="assets\_login.html" />
-        <file src="assets\_logout.html" target="assets\_logout.html" />
-        <file src="assets\_permissions.html" target="assets\_permissions.html" />
-        <file src="Resources\de.po" target="resources\de.po" />
-        <file src="Resources\en.po" target="resources\en.po" />
+        <file src="Assets\checksession.html" target="Assets\checksession.html" />
+        <file src="Assets\_FormPostResponse.html" target="Assets\_FormPostResponse.html" />
+        <file src="Assets\_layout.html" target="Assets\_layout.html" />
+        <file src="Assets\_welcome.html" target="Assets\_welcome.html" />
+        <file src="Assets\_consent.html" target="Assets\_consent.html" />
+        <file src="Assets\_error.html" target="Assets\_error.html" />
+        <file src="Assets\_loggedOut.html" target="Assets\_loggedOut.html" />
+        <file src="Assets\_login.html" target="Assets\_login.html" />
+        <file src="Assets\_logout.html" target="Assets\_logout.html" />
+        <file src="Assets\_permissions.html" target="Assets\_permissions.html" />
+        <file src="Resources\de.po" target="Resources\de.po" />
+        <file src="Resources\en.po" target="Resources\en.po" />
         <file src="..\..\output\release\IdentityServer3.Contrib.Localization.UI.dll" target="lib\net45\IdentityServer3.Contrib.Localization.UI.dll" />
         <file src="..\..\output\release\IdentityServer3.Contrib.Localization.UI.pdb" target="lib\net45\IdentityServer3.Contrib.Localization.UI.pdb" />
     </files>

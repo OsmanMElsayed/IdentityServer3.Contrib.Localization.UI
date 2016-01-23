@@ -1,6 +1,6 @@
-﻿using IdentityServer3.Contrib.Localization.UI.Sample.Configuration;
+﻿using IdentityServer3.Contrib.Localization.UI.Extensions;
+using IdentityServer3.Contrib.Localization.UI.Sample.Configuration;
 using IdentityServer3.Core.Configuration;
-using IdentityServer3.Core.Services.Default;
 using Owin;
 
 namespace IdentityServer3.Contrib.Localization.UI.Sample
@@ -14,12 +14,8 @@ namespace IdentityServer3.Contrib.Localization.UI.Sample
                         .UseInMemoryClients(Clients.Get())
                         .UseInMemoryScopes(Scopes.Get());
 
-            //Configure localized views
-            var viewServiceOptions = new DefaultViewServiceOptions
-            {
-                ViewLoader = new Registration<IViewLoader>(new LocalizedViewLoader())
-            };
-            factory.ConfigureDefaultViewService(viewServiceOptions);
+            //Configure localized view service
+            factory.ConfigureLocalizedViewService();
 
             var options = new IdentityServerOptions
             {

@@ -32,7 +32,7 @@
     <file src="Assets\_permissions.html" target="Assets\_permissions.html" />
     <file src="Resources\de.po" target="Resources\de.po" />
     <file src="Resources\en.po" target="Resources\en.po" />
-    <file src="Resources\en.po" target="Resources\ar.po" />
+    <file src="Resources\ar.po" target="Resources\ar.po" />
     <file src="..\..\output\release\IdentityServer3.Contrib.Localization.UI.dll" target="lib\net45\IdentityServer3.Contrib.Localization.UI.dll" />
     <file src="..\..\output\release\IdentityServer3.Contrib.Localization.UI.pdb" target="lib\net45\IdentityServer3.Contrib.Localization.UI.pdb" />
   </files>
